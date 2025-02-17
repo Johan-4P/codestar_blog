@@ -1,9 +1,14 @@
 {
     "cSpell.words": [
+        "asgiref",
         "atlxk",
         "gjib",
         "gunicorn",
         "herokuapp",
+        "psycopg",
+        "setuptools",
+        "sqlparse",
+        "tzdata",
         "venv",
         "wsgi"
     ]
