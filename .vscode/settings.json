@@ -4,6 +4,7 @@
         "gjib",
         "gunicorn",
         "herokuapp",
+        "venv",
         "wsgi"
     ]
 }
