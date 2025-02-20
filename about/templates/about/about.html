@@ -4,12 +4,21 @@
 <div class="container mt-5">
   <div class="row">
     <div class="col-4 text-center">
-      <img src="{% static 'images/nobody.jpg' %}" width="75%" />
+      <img src="{% static 'images\nobody.jpg' %}" width="75%" />
     </div>
     <div class="col-8">
       <!-- Title goes between these h2 tags -->
-      <h2>{{ about.title }}</h2>
+      <h2>{{ about.me }}</h2>
       <!-- Content goes directly underneath this -->
+       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Eos quas minima perspiciatis,
+         voluptas consequatur ipsam nihil iusto doloribus dolores 
+         ducimus distinctio repellat voluptate dolorum minus sequi quos.
+        Perferendis, impedit eaque?
+        ipsum dolor sit, amet consectetur adipisicing elit.
+        Eos quas minima perspiciatis,
+         voluptas consequatur ipsam nihil iusto doloribus dolores 
+         ducimus distinctio repellat voluptate dolorum minus sequi quos.
       {{ about.content | safe }}
     </div>
   </div>
